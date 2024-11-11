@@ -27,6 +27,7 @@ export default {
         :imgCard="proyecto.imgCard"
         :nombre="proyecto.nombre"
         :description="proyecto.description"
+        :git="proyecto.git"
       />
     </div>
   </section>
@@ -35,6 +36,8 @@ export default {
 <style scoped>
   .projects {
     margin-top: 50px;
+    height: auto;
+    margin-bottom: 20px;
   }
 
   .projects-container {

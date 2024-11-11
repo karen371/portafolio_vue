@@ -38,6 +38,7 @@ export default {
         :imgCard="proyecto.imgCard"
         :nombre="proyecto.nombre"
         :description="proyecto.description"
+        :git="proyecto.git"
       />
     </div>
   </section>

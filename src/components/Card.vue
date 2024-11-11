@@ -12,6 +12,10 @@ export default {
     description: {
       type: String,
       required: true
+    },
+    git: {
+      type: String,
+      required: true
     }
   }
 };
@@ -23,8 +27,7 @@ export default {
       <h5 class="card-title fw-bold mb-3">{{ nombre }}</h5>
       <p class="card-text text-muted">{{ description }}</p>
       <div class="d-flex justify-content-between align-items-center">
-        <a href="#" class="btn btn-primary btn-sm">Ver más</a>
-        <a href="#" class="text-secondary">
+        <a :href="git" class="text-secondary" target="_blank" rel="noopener noreferrer">
           <i class="fa-brands fa-github fa-lg"></i>
         </a>
       </div>
