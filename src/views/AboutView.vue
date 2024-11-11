@@ -1,3 +1,13 @@
+<script>
+import miFoto from '../assets/img/MiFoto.jpeg'
+export default {
+  data(){
+    return{
+      miFoto
+    }
+  }
+}
+</script>
 <template>
   <section class="about">
     <div class="text-center mt-4">
@@ -5,7 +15,7 @@
     </div>
     <div class="contenido-about">
       <div class="about-img">
-        <img src="" class="card-img-top rounded-top-4" alt="Yo">
+        <img :src="miFoto" class="card-img-top rounded-top-4" alt="Yo">
       </div>
       <div class="about-text">
         <p>
@@ -45,24 +55,20 @@
 
   .contenido-about {
     display: flex;
-    justify-content: space-between; /* Espacio entre la imagen y el texto */
+    justify-content: space-evenly; /* Espacio entre la imagen y el texto */
     align-items: center; /* Alineación vertical */
     flex-wrap: wrap; /* Asegura que se acomode en pantallas pequeñas */
-    gap: 2rem; /* Espacio entre los elementos */
+    gap: 1rem; /* Espacio entre los elementos */
   }
 
   .about-img {
     flex: 1 1 40%; /* La imagen ocupa el 40% del ancho */
-    max-width: 300px; /* Controla el tamaño máximo */
+    max-width: 300px; /* Limita el tamaño máximo */
     text-align: center; /* Centra la imagen dentro de su contenedor */
   }
-
-  .about-img img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%; /* Para hacer la imagen redonda si se desea */
+  .about-img img{
+    border-radius: 10%;
   }
-
   .about-text {
     flex: 1 1 50%; /* El texto ocupa el 50% del ancho */
     max-width: 600px; /* Controla el tamaño máximo */
