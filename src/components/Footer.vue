@@ -36,9 +36,9 @@ export default {
             <div class="col-md-4 text-center mb-3">
               <h5>Enlaces Rápidos</h5>
               <ul class="list-unstyled">
-                <li><a href="#about" class="">Sobre Mí</a></li>
-                <li><a href="#projects" class="">Proyectos</a></li>
-                <li><a href="#contact" class="">Contacto</a></li>
+                <li><router-link to="/about" class="nav-link">Acerca de mí</router-link></li>
+                <li><router-link to="/project" class="nav-link">Proyectos</router-link></li>
+                <li><router-link to="/contact" class="nav-link">Contacto</router-link></li>
               </ul>
             </div>
           </div>
