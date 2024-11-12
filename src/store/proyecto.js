@@ -9,7 +9,7 @@ const state = () => ({
   proyectos: [
     { imgCard: coffeAgereImg, nombre: 'Coffee Agere', description: '',git:'https://github.com/karen371/coffee-Agrere' },
     { imgCard: ricomidaImg, nombre: 'Ricomida', description: '', git:'https://github.com/karen371/Ricomida' },
-    { imgCard: suricataImg, nombre: 'Suricata', description: '', git:'https://github.com/karen371/suricata_page' },
+    { imgCard: suricataImg, nombre: 'Suricata', description: '', git:'https://karen371.github.io/suricata_page/' },
     { imgCard: SuperImg, nombre: 'SuperHero', description: '',git:'https://github.com/karen371/superhero' },
     { imgCard: ViajesImg, nombre: 'Viajes chile', description: '',git:'https://github.com/karen371/Viajes-chile-sass-bootstrap2' },
     { imgCard: suricataVImg, nombre: 'Suricata vue', description: '',git:'https://github.com/karen371/suricata_vue_router' },
